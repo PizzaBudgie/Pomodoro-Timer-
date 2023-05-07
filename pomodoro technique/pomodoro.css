@@ -1,0 +1,88 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: rgb(213, 197, 157);
+	color: #0d0d0d;
+}
+
+.container {
+	margin: auto;
+	max-width: 800px;
+	padding: 50px;
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 50px;
+	font-size: 4rem;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #0d0d0d;
+}
+
+.timer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.timer-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 20px;
+}
+
+.time {
+	font-size: 10rem;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.time-label {
+	font-size: 2rem;
+	color: #ffffff;
+}
+
+.buttons button {
+	background-color: #8ac6d1;
+	border: none;
+	color: white;
+	padding: 20px 40px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 2rem;
+	margin: 30px 10px;
+	cursor: pointer;
+	border-radius: 50px;
+	transition: all 0.3s ease-in-out;
+}
+
+.buttons button:hover {
+	background-color: #ff6961;
+	transform: scale(1.05);
+}
+
+#start {
+	background-color: #00ff00;
+}
+
+#start:hover {
+	background-color: #ff6961;
+}
+
+#stop {
+	background-color: #e55d5d;
+}
+
+#stop:hover {
+	background-color: #ff6961;
+}
+
+#reset {
+	background-color: #000000;
+}
+
+#reset:hover {
+	background-color: #ff6961;
+}
